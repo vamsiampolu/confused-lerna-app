@@ -13,6 +13,6 @@
     "babel-preset-env": "^1.6.0"
   },
   "scripts": {
-    "prepublish": "babel src -d lib src"
+    "prepublish": "babel -d lib src"
   }
 }

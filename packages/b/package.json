@@ -6,5 +6,8 @@
   "dependencies": {
     "supervillains": "^1.0.0",
     "a": "0.0.1"
+  },
+  "scripts": {
+    "prepublish": "babel -d lib src"
   }
 }
