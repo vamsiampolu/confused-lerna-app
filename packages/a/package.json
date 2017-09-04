@@ -14,5 +14,6 @@
   },
   "scripts": {
     "prepublish": "babel -d lib src"
-  }
+  },
+  "main": "./lib/index.js"
 }
